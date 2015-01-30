@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(document).on('click', '.dashboard-module .dashboard-module a', function(e) {
+	$(document).on('click', '.dashboard-module .dashboard-module a:not(.nojs)', function(e) {
 		e.preventDefault();
 		var module = $(this);
 		$.get(

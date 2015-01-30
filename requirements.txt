@@ -5,3 +5,4 @@ flake8
 pytz
 python-dateutil
 south
+-e git+git://github.com/neworganizing/python-actionkit.git@master#egg=actionkit
